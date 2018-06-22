@@ -1,4 +1,4 @@
-package summerschool.tutorials
+package pmm2018.tutorials
 
 import java.awt.Color
 import java.io.File

@@ -1,6 +1,6 @@
 organization := "ch.unibas.cs.gravis"
 
-name := "summerschool18"
+name := "pmm2018"
 
 version := "0.1"
 
