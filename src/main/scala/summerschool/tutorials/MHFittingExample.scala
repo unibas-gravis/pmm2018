@@ -139,7 +139,7 @@ object MHFittingExample {
     val targetGroup = ui.createGroup("target")
 
 
-    val model = StatismoIO.readStatismoMeshModel(new java.io.File("datasets/bfm.h5")).get
+    val model = StatismoIO.readStatismoMeshModel(new java.io.File("datasets/bfm-10faces.h5")).get
     val target = MeshIO.readMesh(new java.io.File("datasets/target.stl")).get
 
     val modelView = ui.show(modelGroup, model, "model")

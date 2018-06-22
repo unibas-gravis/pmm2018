@@ -29,7 +29,7 @@ object RegistrationExample extends App {
 
   // Loading the data (we are using lowres version to safe some computation time)
   val referenceMesh = MeshIO.readMesh(new File("datasets/lowResPaola.stl")).get
-  val targetMesh = MeshIO.readMesh(new File("datasets/testFaces_low/323.stl")).get
+  val targetMesh = MeshIO.readMesh(new File("datasets/lowRes323.stl")).get
 
 
   // We create a new group in the ui and visualize the target Mesh
